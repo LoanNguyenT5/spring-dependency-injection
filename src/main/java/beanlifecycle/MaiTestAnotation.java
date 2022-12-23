@@ -6,7 +6,7 @@ import pojobeans.AccountService;
 
 public class MaiTestAnotation {
     public static void main(String[] args) {
-//        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("annotationbasedconfiguration/beans.xml");
+//        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("annotationbasedconfiguration/beans-contructor.xml");
 //        BeansLifeCycleAnnotation beansLifeCycleAnnotation = applicationContext.getBean("beansLifeCycleAnnotation", BeansLifeCycleAnnotation.class);
 //        applicationContext.close();
 
