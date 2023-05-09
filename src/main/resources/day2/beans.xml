@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<!--    <bean id = "compa" class = "day2.Compa"/>-->
+<!--    <bean id = "student" class = "day2.Student">-->
+<!--        <property name="compa" ref="compa"/>-->
+<!--    </bean>-->
+
+    <bean id = "draw" class = "day2.DrawSquare"/>
+    <bean id = "student" class = "day2.Student">
+        <property name="draw" ref="draw"/>
+    </bean>
+</beans>

@@ -9,10 +9,12 @@ import javax.annotation.PreDestroy;
 public class BeansLifeCycleAnnotation {
     @PostConstruct
     public void postConstruct(){
+
         System.out.println("Call method postConstruct()");
     }
     @PreDestroy
     public void preDestroy(){
+
         System.out.println("Container has been closed and call preDestroy() method");
     }
 }

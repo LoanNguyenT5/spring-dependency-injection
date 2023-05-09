@@ -3,7 +3,7 @@ package javabasedconfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pojobeans.AccountService;
 
-public class Main {
+public class MainTestConfig {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(BeanCofiguration.class);
         AccountService accountService = applicationContext.getBean("accountService", AccountService.class);

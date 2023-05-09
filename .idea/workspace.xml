@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bd8e0b0-afca-4376-b0c2-de3ccc22766f" name="Changes" comment="Add new file">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/Compa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/Draw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/DrawCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/DrawRectangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/DrawSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/FactoryTypeDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencydemo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencydemo/FactoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencydemo/MSSQLDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencydemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencydemo/MySQLDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencydemo/PostgreDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/AccountServiceSetterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/MainTestConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javabasedconfiguration/MainTestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nodependencyinjection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nodependencyinjection/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nodependencyinjection/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nodependencyinjection/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day2/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dependencyinjection/beans-contructor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dependencyinjection/beans-setter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeansLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeansLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeansLifeCycleAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeansLifeCycleAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beanlifecycle/MaiTestAnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/MaiTestAnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javabasedconfiguration/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/MainTestSetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/annotationbasedconfiguration/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/annotationbasedconfiguration/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beanslifecycle/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beanslifecycle/beans.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IX0EAKV1RPbRnhQzDoknmV0BdM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/loannguyen/Project/spring-dependency-injection",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources/day2" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/dependencyinjection" />
+      <recent name="$PROJECT_DIR$/src/main/java/dependencyinjection" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javabasedconfiguration" />
+      <recent name="day2" />
+      <recent name="dependencyinjection" />
+      <recent name="beanlifecycle" />
+      <recent name="beanscope" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MaiTestAnotation">
+    <configuration name="MaiTestAnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanlifecycle.MaiTestAnotation" />
+      <module name="spring-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beanlifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanlifecycle.Main" />
+      <module name="spring-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beanlifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTestConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasedconfiguration.MainTestConfig" />
+      <module name="spring-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasedconfiguration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beanscope.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanscope.Main" />
+      <module name="spring-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beanscope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xmlbasedconfiguration.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xmlbasedconfiguration.Main" />
+      <module name="spring-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmlbasedconfiguration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaiTestAnotation" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.beanscope.Main" />
+        <item itemvalue="Application.MainTestConfig" />
+        <item itemvalue="Application.xmlbasedconfiguration.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bd8e0b0-afca-4376-b0c2-de3ccc22766f" name="Changes" comment="" />
+      <created>1670312509731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670312509731</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit file">
+      <created>1670341816329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670341816330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit file">
+      <created>1670342035175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670342035176</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit source base">
+      <created>1670342557107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670342557107</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit source base">
+      <created>1670343375788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670343375788</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add new file">
+      <created>1671795098243</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671795098243</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit file" />
+    <MESSAGE value="Commit source base" />
+    <MESSAGE value="Add new file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new file" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_dependency_injection$Main.ic" NAME="Main Coverage Results" MODIFIED="1670494027965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nodependencyinjection.*</FILTER>
+    </SUITE>
+  </component>
+</project>

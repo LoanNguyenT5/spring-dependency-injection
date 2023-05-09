@@ -6,13 +6,13 @@ import pojobeans.AccountService;
 
 public class MaiTestAnotation {
     public static void main(String[] args) {
-//        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("annotationbasedconfiguration/beans-contructor.xml");
-//        BeansLifeCycleAnnotation beansLifeCycleAnnotation = applicationContext.getBean("beansLifeCycleAnnotation", BeansLifeCycleAnnotation.class);
-//        applicationContext.close();
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("annotationbasedconfiguration/beans.xml");
+        BeansLifeCycleAnnotation beansLifeCycleAnnotation = applicationContext.getBean("beansLifeCycleAnnotation", BeansLifeCycleAnnotation.class);
+        applicationContext.close();
 
-        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
-        ctx.register(BeansLifeCycleAnnotation.class);
-        ctx.refresh();
-        ctx.close();
+//        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+//        ctx.register(BeansLifeCycleAnnotation.class);
+//        ctx.refresh();
+//        ctx.close();
     }
 }

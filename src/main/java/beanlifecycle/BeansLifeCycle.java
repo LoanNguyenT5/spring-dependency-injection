@@ -2,6 +2,7 @@ package beanlifecycle;
 
 public class BeansLifeCycle {
     public void init(){
+
         System.out.println("Call method init()");
     }
     public void destroy(){
