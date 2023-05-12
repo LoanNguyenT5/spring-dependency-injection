@@ -10,13 +10,12 @@ public class Main {
         Account accSingleton1 = applicationContext.getBean("account1", Account.class);
         accSingleton1.setOwnerName("XXXXXXX");
         Account accSingleton2 = applicationContext.getBean("account1", Account.class);
-        System.out.println("account1: "+ accSingleton2.getOwnerName());
+        System.out.println("account1: "+ accSingleton1.getOwnerName());
 
         Account accPrototype1 = applicationContext.getBean("account2", Account.class);
         accPrototype1.setOwnerName("XXXXXXX");
         Account accPrototype2 = applicationContext.getBean("account2", Account.class);
         System.out.println("account2: "+ accPrototype2.getOwnerName());
-
 
     }
 

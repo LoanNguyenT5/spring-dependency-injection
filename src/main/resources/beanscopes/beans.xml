@@ -10,9 +10,16 @@
         <property name="balance" value="23.0"/>
     </bean>
 
+    <bean id = "account3" class = "pojobeans.Account" scope="singleton">
+        <property name="id" value="1"/>
+        <property name="ownerName" value="Jun"/>
+        <property name="balance" value="23.0"/>
+    </bean>
+
     <bean id = "account2" class = "pojobeans.Account" scope="prototype">
         <property name="id" value="2"/>
         <property name="ownerName" value="Aric"/>
         <property name="balance" value="100.000"/>
     </bean>
+
 </beans>
